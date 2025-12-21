@@ -38,3 +38,5 @@ let hello;
 hello = "hi";
 hello = "hey";
 hello = "hello";
+
+// const whoops; // Error (const declarations must be initialized)
