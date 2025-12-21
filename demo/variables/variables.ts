@@ -21,3 +21,9 @@ const missing = undefined;
 
 // we know it's missing
 const empty = null;
+
+let someNum = 0;
+someNum = 1;
+someNum = 2;
+
+// let someNum = 5;
