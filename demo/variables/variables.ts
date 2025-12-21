@@ -32,11 +32,9 @@ someNum = 2;
     let someNum = 5;
     // test code ...
 }
-{
-    let someNum = 4;
-    // test code ...
-}
-{
-    let someNum = 3;
-    // test code ...
-}
+
+let hello;
+
+hello = "hi";
+hello = "hey";
+hello = "hello";
