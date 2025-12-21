@@ -13,4 +13,11 @@ const hexByte = 0xff;
 const binary = 0b0100001;
 const bigInt = 9000n;
 
+const yes = true;
+const no = false;
 
+// completely missing
+const missing = undefined;
+
+// we know it's missing
+const empty = null;
