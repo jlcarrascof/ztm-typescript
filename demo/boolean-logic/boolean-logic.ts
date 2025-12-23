@@ -17,3 +17,11 @@ assert.equal(isThree, true);
 
 const isNotThree = ( 1 + two ) !== 10;
 assert.equal(isNotThree, true);
+
+// <
+// <=
+// >
+// >=
+// ===
+// !==
+
