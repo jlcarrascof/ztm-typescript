@@ -10,3 +10,10 @@ assert.equal(canPurchase, true);
 
 const denyPurchase = age < 18;
 assert.equal(denyPurchase, false);
+
+const two = 2;
+const isThree = ( 1 + two) === 3;
+assert.equal(isThree, true);
+
+const isNotThree = ( 1 + two ) !== 10;
+assert.equal(isNotThree, true);
