@@ -1,0 +1,28 @@
+{
+  "name": "ztm-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript Bootcamp: Zero to Mastery",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "demo": "ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlcarrascof/ztm-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jlcarrascof/ztm-typescript/issues"
+  },
+  "homepage": "https://github.com/jlcarrascof/ztm-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
