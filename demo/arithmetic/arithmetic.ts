@@ -27,3 +27,6 @@ assert.equal(neg, -1);
 
 const neg2 = -neg;
 assert.equal(neg2, 1);
+
+const exp = 2 ** 3;
+assert.equal(exp, 8);
