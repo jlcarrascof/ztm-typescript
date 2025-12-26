@@ -9,3 +9,6 @@ assert.equal(n, 2);
 ++n;
 assert.equal(n, 3);
 
+n = 5;
+const k = n++;
+assert.equal(k, 6);
