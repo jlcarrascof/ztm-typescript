@@ -18,3 +18,10 @@ assert.equal(suggestMovie, true);
 const age = 18;
 const isTeenager = age >= 13 && age < 20;
 assert.equal(isTeenager, true);
+
+// our package 
+const packageWeight = 30;
+const packageLenght = 50;
+const feeExemption = false;
+
+const extraFee = !feeExemption && (packageWeight > 25 || packageLenght > 40);
