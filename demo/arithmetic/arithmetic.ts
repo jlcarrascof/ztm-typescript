@@ -12,3 +12,9 @@ assert.equal(mul, 9);
 
 const div = 8 / 2;
 assert.equal(div, 4);
+
+const inf = 1 / 0;
+assert.equal(inf, Infinity);
+
+const nan = 0 / 0;
+assert(isNaN(nan));
