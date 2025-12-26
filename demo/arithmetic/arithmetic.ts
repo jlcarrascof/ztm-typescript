@@ -18,3 +18,12 @@ assert.equal(inf, Infinity);
 
 const nan = 0 / 0;
 assert(isNaN(nan));
+
+const rem = 10 % 3;
+assert.equal(rem, 1);
+
+const neg = -rem;
+assert.equal(neg, -1);
+
+const neg2 = -neg;
+assert.equal(neg2, 1);
