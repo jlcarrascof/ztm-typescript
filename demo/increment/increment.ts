@@ -30,3 +30,8 @@ assert.equal(n, 5);
 n -= 1;
 assert.equal(n, 4);
 
+// +=
+// -=
+// *=
+// /=
+// %=
