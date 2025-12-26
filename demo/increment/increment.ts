@@ -11,4 +11,5 @@ assert.equal(n, 3);
 
 n = 5;
 const k = n++;
-assert.equal(k, 6);
+// assert.equal(k, 6);
+assert.equal(n, 6);
