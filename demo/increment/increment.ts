@@ -17,3 +17,11 @@ assert.equal(n, 6);
 n = 5;
 const j = ++n;
 assert.equal(j, 6);
+
+n = 5;
+const t = --n;
+assert.equal(t, 4);
+
+n = 5;
+n += 5;
+assert.equal(n, 10);
