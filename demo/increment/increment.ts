@@ -25,3 +25,8 @@ assert.equal(t, 4);
 n = 5;
 n += 5;
 assert.equal(n, 10);
+n -= 5;
+assert.equal(n, 5);
+n -= 1;
+assert.equal(n, 4);
+
