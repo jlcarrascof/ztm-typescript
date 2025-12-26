@@ -13,3 +13,8 @@ const favoriteMovie = false;
 
 const suggestMovie = rating > 8 || favoriteMovie;
 assert.equal(suggestMovie, true);
+
+// AND 
+const age = 18;
+const isTeenager = age >= 13 && age < 20;
+assert.equal(isTeenager, true);
