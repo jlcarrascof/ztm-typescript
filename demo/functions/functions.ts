@@ -13,3 +13,6 @@ function sum(lhs, rh2) {
 
 const answer = sum(2, 2);
 console.log(answer);
+
+const answer2 = sum(answer, 2);
+assert.equal(answer2, 6);
