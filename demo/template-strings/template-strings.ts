@@ -9,3 +9,9 @@ function greet(message) {
 }
 
 greet("TypeScript");
+
+const kids = 2;
+const adults = 4;
+const totalPeople = `There are ${kids + adults} people`;
+
+console.log(totalPeople);
